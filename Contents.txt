@@ -1,0 +1,181 @@
+Topics (Selenium with Python)
+=======================
+
+1. Python installation, selenium installation, pycharm
+
+2. Run the test on different browser
+
+3. Webdriver basic commands
+
+4. Webdriver Navigational commands
+		
+	http://newtours.demoaut.com
+		
+	http://demo.automationtesting.in/Windows.html
+5. Webdriver Conditional Commands
+		
+	http://newtours.demoaut.com
+
+6. Webdriver Wait Commands
+	
+implicit wait
+
+		http://newtours.demoaut.com
+	
+explicit wait
+
+		https://www.expedia.com/
+7. Working with Inputboxes
+
+	Total No of input boxes
+
+	Enter values to inputbox
+
+	Get the status of inputbox
+
+		http://newtours.demoaut.com
+8. Working with Checkboxes and Radioboxes
+
+	Check if radio/check box is selected or not
+
+Select the radio or check box
+
+		http://newtours.demoaut.com
+
+9. Working with dropdown
+
+	Select one option
+
+	Count, and print all the options
+
+		https://fs2.formsite.com/meherpavan/form2/index.html?1537702596407
+
+10. Working with links
+
+	Count and print all the links
+
+	Click on link
+
+		http://newtours.demoaut.com
+11. Working with Alerts
+
+		https://testautomationpractice.blogspot.com/
+
+12. Working with frames
+
+	switch between windows
+
+		https://seleniumhq.github.io/selenium/docs/api/java/index.html
+
+13. Working with Browser Windows
+
+	Current window handle
+
+	Window handles
+		http://demo.automationtesting.in/Windows.html
+
+14. Working with WebTables
+
+		file:///E:/Subash/Python/SeleniumAutomation/Resources/Webtable.html
+
+15. Srolling on WebPage
+
+	Scroll down the page by pixel
+
+		"window.scrollBy(0, 1000)", ""
+
+	Scroll till element is found
+
+		"arguments[0].scrollIntoView();",<web element>
+
+	Scroll down till end of page
+
+		"window.scrollBy(0, document.body.scrollHeight)"
+
+16. Mouse Actions
+
+	Mouse Hover (move_to_element)
+
+		https://opensource-demo.orangehrmlive.com/
+
+	Double Click (double_click)
+
+  		file:///E:/Subash/Python/SeleniumAutomation/Resources/Webtable.html
+
+	Right Click (content_click)
+
+		https://swisnl.github.io/jQuery-contextMenu/demo.html
+
+	Drag and Drop (drag_and_drop)
+
+		http://dhtmlgoodies.com/scripts/drag-drop-custom/demo-drag-drop-3.html
+
+17. Upload file
+
+		https://fs2.formsite.com/meherpavan/form2/index.html?1537702596407
+
+18. Download file (using Chrome and firefox)
+
+		http://demo.automationtesting.in/FileDownload.html
+
+20. Data Driven Testing Using Excel
+
+	Reading data from Excel file
+
+	Writing data to Excel file
+
+	Data driven testing
+
+21. Handling Cookies
+	Get all Cookies
+	Add Cookie
+	Delete the Cookie and Cookies
+		https://www.amazon.in
+22. Take Screenshots
+	save_screenshot('filename')
+	get_screenshot_as_file('filename')
+		http://newtours.demoaut.com
+23. Logging & Log Levels
+	Log Levels - DEBUG, INFO, WARNING, ERROR, CRITICAL
+24. UnitTest Framework - Create TestCases
+	Create Test Case
+	Create multiple Test Case
+25. UnitTest Framework - setup, teardown decorators
+	setup and teardown
+	setupClass and teardownClass
+	setupModule and teardownModule
+26. UnitTest Framework - Skipping tests
+	Skip test
+	Skip test with reason
+	Skip test with based on condition
+27. UnitTest Framework - Assertions
+	assertEqual - Pass if both parameter matches, else fails TC
+	assertNotEqual - Pass if both parameter are not same, else passed TC
+	assertTrue - checks if given parameters is true or false (more than two parameter), if true pass else fail
+	assertFalse - if false pass else fail
+	assertIsNone - Pass whether given value is None or Not. If None pass else fail
+	assertIsNotNone - If is not None Pass esle fail
+	assertIn - Verifies first element is present in second, then pass else fail - used in list, tuple, dict
+	assertNotIn - Verifies first element is not present in second, then pass else fail
+28. UnitTest Framework - Relational Comparison
+	assertGreater - verifies first value is greater than second
+	assertGreaterEqual - verifies first value is greater than equal to second
+	assertLess - verifies first value is lesser than second
+	assertLessEqual-verifies first value is lesser than equal to second
+29. UnitTest Framework - Batch Testing
+	Managing Test Case and TestSuite
+30. Pytest framework
+	Installation of Pytest framework
+	Create and execute Test in Pytest
+31. Pytest fixtures
+	-fixtures is to provide a fixed baseline upon which test can reliable and repeatedly execute
+	pytest.fixtures()
+	pytest.yeild.fixtures()
+32. Pytest - Multiple Ways to Run TC's
+	pytest -v -s
+	pytest -v -s <path of package>
+	pytest -v -s <module name>::<test cases name>
+33. Python Unittest HTML TestRunner Reports
+	Unit Test with HTML Report
+34. Unit Test, POM(Page Object Model) and HTML Reports
+	Small Project using POM
